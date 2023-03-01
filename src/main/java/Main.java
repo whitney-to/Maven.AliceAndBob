@@ -4,7 +4,6 @@ import java.util.Scanner;
  * Created by iyasuwatts on 10/17/17.
  */
 public class Main {
-
     public static void main(String[] args ){
         System.out.println("Please input your name: ");
         Scanner scanner = new Scanner(System.in);
@@ -12,6 +11,6 @@ public class Main {
         if(userInput.equalsIgnoreCase("alice") || userInput.equalsIgnoreCase("bob")){
             System.out.format("Hello %s",userInput);
         }
-
+        scanner.close();
     }
 }
